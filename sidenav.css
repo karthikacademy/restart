@@ -1,0 +1,35 @@
+* {
+    box-sizing: content-box;
+  }
+  
+  body {
+    
+    margin: 0;
+  }
+  .sidenav {
+    top: 0;
+    display:flexbox;
+    float: left;
+    overflow: hidden;
+  background-color: black;
+}
+.sidenav a{
+  display: block;
+  color:white;
+  text-align: left;
+  padding: 14px 16px;
+  height:40px;
+  width:150px;
+  text-decoration: none;
+}
+.sidenav a:hover{
+    
+    background-color: #0ad13b  ;
+    border-radius: 30px;
+    color: white;
+}
+.image{
+  float:right;
+  padding: 30px;
+}
+ 
